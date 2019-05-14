@@ -41,10 +41,41 @@ namespace BSM.ClassLibrary1
 
         public override bool CanUseItem(Player player)
         {
+            if (NPC.downedKingSlime)
+            {
+                item.damage = 15;
+            }
             if (NPC.downedBoss1)
             {
                 item.damage = 20;
-
+            }
+            if (NPC.downedBoss2)
+            {
+                item.damage = 27
+            }
+            if (NPC.downedQueen)
+            {
+                item.damage = 34;
+            }
+            if (NPC.downedBoss3)
+            {
+                item.damage = 40;
+            }
+            if (Main.HardMode)
+            {
+                item.damage = 48:
+            }
+            if (NPC.downedMechBoss1)
+            {
+                item.damage + 5;
+            }
+            if (NPC.downedMechBoss2)
+            {
+                item.damage + 5;
+            }
+            if (NPC.downedMechBoss3)
+            {
+                item.damage + 5;
             }
             return true;
         }
