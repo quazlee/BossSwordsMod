@@ -1,0 +1,4 @@
+author = aaaaa
+version = 0.1
+displayName = aa
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*

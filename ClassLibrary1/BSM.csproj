@@ -8,6 +8,9 @@
     <Reference Include="Terraria">
       <HintPath>E:\SteamLibrary\steamapps\common\Terraria\Terraria.exe</HintPath>
     </Reference>
+    <Reference Include="Terraria">
+      <HintPath>E:\SteamLibrary\steamapps\common\Terraria\Terraria.exe</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quazl\\Documents\\GitHub\\BSM\\ClassLibrary1\\BSM.csproj",
+      "projectUniqueName": "C:\\Users\\quazl\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\BSM\\ClassLibrary1\\BSM.csproj",
       "projectName": "BSM",
-      "projectPath": "C:\\Users\\quazl\\Documents\\GitHub\\BSM\\ClassLibrary1\\BSM.csproj",
+      "projectPath": "C:\\Users\\quazl\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\BSM\\ClassLibrary1\\BSM.csproj",
       "packagesPath": "C:\\Users\\quazl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quazl\\Documents\\GitHub\\BSM\\ClassLibrary1\\obj\\",
+      "outputPath": "C:\\Users\\quazl\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\BSM\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
