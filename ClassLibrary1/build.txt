@@ -1,4 +1,4 @@
-author = aaaaa
+author = quazlee
 version = 0.1
-displayName = aa
+displayName = Boss Swords Mod
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
