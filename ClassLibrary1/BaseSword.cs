@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria;
 
 namespace BSM.ClassLibrary1
 {
@@ -15,7 +16,7 @@ namespace BSM.ClassLibrary1
         }
         public override void SetDefaults()
         {
-            item.damage = BossSwordDamage.bossDamage;
+            item.damage = 10;
             item.melee = true;
             item.width = 4;
             item.height = 4;
@@ -37,5 +38,17 @@ namespace BSM.ClassLibrary1
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
+
+        public override bool CanUseItem(Player player)
+        {
+            if (NPC.downedBoss1)
+            {
+                item.damage = 20;
+
+            }
+            return true;
+        }
+
+
     }
 }
