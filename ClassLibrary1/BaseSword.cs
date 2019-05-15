@@ -4,6 +4,7 @@ using System.Text;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria;
+using Microsoft.Xna.Framework;
 
 namespace BSM.ClassLibrary1
 {
